@@ -1,0 +1,16 @@
+{% load static %}
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+<link href="https://fonts.googleapis.com/css?family=Asar|Coiny|Roboto|Meera+Inimai|Ramaraja|Shrikhand|Cookie|Cantora+One" rel="stylesheet">
+
+<nav class="navbar navbar-dark bg-dark">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">GadgePro</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active nav-item"><a href="#">Dispatcher Login</a></li>
+      <li class="nav-item"><a href="{% url 'driver:customer-create' %}">Request a Taxi</a></li>
+      <li class="nav-item"><a href="#">Leave Feedback</a></li>
+    </ul>
+  </div>
+</nav>
